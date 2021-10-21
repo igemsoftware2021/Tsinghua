@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <h1>Intestinal&nbsp&nbspBacteria&nbsp&nbspSimulator</h1>
+    <h2 style="margin-right: -480px">THU&nbsp&nbspiGEM&nbsp&nbsp2021&nbsp&nbspSOFTWARE</h2>
+    <link rel="stylesheet" href="index_style.css" type="text/css" />
+    <script>
+        var wtSet;
+        var intestinalSet;
+        var hua;
+        var severity = 2;
+
+        var total_second = 0 //计时器
+        setInterval(add, 1000)
+
+        function add() {
+            total_second++
+        }
+    </script>
+    <script src="BasicFunction.js"></script>
+    <script src="Bacteria.js"></script>
+    <script src="BacteriaSet.js"></script>
+    <script src="echarts.min.js"></script>
+    <script src="EchartsTheme.js"></script>
+    <style>
+        .one,
+        .two {
+
+            width: 600px;
+
+            height: 300px;
+
+            border: 1px solid #ccc;
+
+            float: left;
+
+            box-sizing: border-box;
+
+        }
+    </style>
+</head>
+
+<body>
+    <br>
+    </br>
+
+    <div style="margin-left: -572px" id="huahua">
+        <!--滑竿控件：一次服用菌的量-->
+        <h3>Slide To Change The Dose:</h3>
+        <p id="range">
+            10&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp60
+        </p>
+        <input type="range" name="points" min="20" max="100" step="1" id="slider" />
+        <br></br>
+    </div>
+    <div class="radioD" style="margin-left: -572px">
+        <h3>Choose Disease Severity:</h3>
+        <input type="radio" name="Severity" value="Severe" id="Severe"
+            onclick="severity=1;document.getElementById('range').textContent='20&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 100'; document.getElementById('slider').min=10;document.getElementById('slider').max=60;"><label
+            for="Severe">Severe</label>
+        <input type="radio" name="Severity" value="Mild" id="Mild" checked="checked"
+            onclick="severity=2;document.getElementById('range').textContent='10&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 60';"><label
+            for="Mild">Mild</label>
+    </div>
+    <br>
+
+    </br>
+    <div style="margin-left: -595px" id="clickclick">
+        <!--开始和重新开始按钮-->
+        <button id="start" onclick="Start()">START</button>
+        <button id="take_pills" disabled=true onclick="Hua();intestinalSet.Eat_EngineeredBacterial()">TAKE
+            PILLS</button>
+        <button id="restart" disabled=true onclick="ReStart()">RESTART</button>
+    </div>
+    <br>
+
+    </br>
+    <!--创建800*250画布-->
+    <!--img src="img/down.PNG" id="img" width="70" height="20" /-->
+    <canvas id="canvas" width="800" height="250"></canvas>
+
+    <script>
+        var count = 0;
+        //获取滑竿值
+        function Hua() {
+            hua = document.getElementById("slider").value;
+            count++;
+            if (count == 1) {
+                option1 && myChart.setOption(option1);
+            }
+            if (count == 7 && severity == 2) {
+                document.getElementById('take_pills').disabled = true;
+                alert("The number of doses has reached the upper limit!");
+            }
+            if (count == 10 && severity == 1) {
+                document.getElementById('take_pills').disabled = true;
+                alert("The number of doses has reached the upper limit!");
+            }
+        }
+
+        var isStart = false;
+        var Type;
+        function Start() {
+            wtSet = new wtBacteriaSet()
+            intestinalSet = new intestinalBacteriaSet()
+            // alert(wtSet);
+            isStart = true;
+            total_second = 0;
+            drawFrame();
+            document.getElementById('take_pills').disabled = false;
+            document.getElementById('restart').disabled = false;
+            document.getElementById('Mild').disabled = true;
+            document.getElementById('Severe').disabled = true;
+            option && Chart.setOption(option);
+            document.getElementById('start').disabled = true;
+
+            for (var i = 0; i < 1000; i++) {
+                data1.push(DATA1());
+                data2.push(DATA2());
+            }
+        }
+
+        function ReStart() {
+		  
+           // canvas.clearRect(0,0,canvas.width,canvas.height); 
+
+            wtSet = null;
+            intestinalSet = null;
+            // alert(wtSet);
+            count = 0;
+            isStart = false;
+            myChart.clear();
+            Chart.clear();
+            data1.length = 0;
+            data2.length = 0;
+            legendData.length = 0;
+            for (var i = 0; i < 10; i++) {
+                BSHData[i].length = 0;
+            }
+            document.getElementById('start').disabled = false;
+            document.getElementById('take_pills').disabled = true;
+            document.getElementById('restart').disabled = true;
+            BSH.length = 0;
+            for (var i = 0; i < count; i++) {
+                BSH.push(0);
+            }
+            totalTime = 0;
+            window.cancelAnimationFrame(id)
+            canvas.height = canvas.height // 清空画布
+            init_draw();
+        }
+
+        // 获取canvas画布和context 
+        var canvas = document.getElementById('canvas')
+        var ctx = canvas.getContext('2d')
+
+        //绘制肠壁图片
+        var img_up = new Image()
+        var img_down = new Image()
+        img_up.src = 'img/up.PNG'
+        img_down.src = 'img/down.PNG'
+        //图片加载完后，将其显示在canvas中
+        img_up.onload = function () {
+            ctx.drawImage(this, 0, -7, 70, 33.5)
+            ctx.drawImage(this, 61, -7, 70, 33)
+            ctx.drawImage(this, 122, -8, 70, 33)
+            ctx.drawImage(this, 183, -7, 70, 32)
+            ctx.drawImage(this, 244, -7, 70, 30)
+            ctx.drawImage(this, 305, -7.8, 70, 30)
+            ctx.drawImage(this, 366, -7, 70, 31)
+            ctx.drawImage(this, 427, -7.5, 70, 30)
+            ctx.drawImage(this, 488, -7.4, 70, 30)
+            ctx.drawImage(this, 549, -7, 70, 30)
+            ctx.drawImage(this, 610, -7.2, 70, 30)
+            ctx.drawImage(this, 671, -7, 70, 30)
+            ctx.drawImage(this, 732, -7, 70, 30)
+        }
+        img_down.onload = function () {
+            ctx.drawImage(this, 0, 226.5, 65, 30)
+            ctx.drawImage(this, 61, 226.4, 65, 30)
+            ctx.drawImage(this, 122, 226, 65, 30)
+            ctx.drawImage(this, 183, 226.2, 65, 30)
+            ctx.drawImage(this, 244, 226.6, 65, 30)
+            ctx.drawImage(this, 305, 226, 65, 30)
+            ctx.drawImage(this, 366, 226.1, 65, 30)
+            ctx.drawImage(this, 427, 226.7, 65, 30)
+            ctx.drawImage(this, 488, 226.5, 65, 30)
+            ctx.drawImage(this, 549, 226, 65, 30)
+            ctx.drawImage(this, 610, 227, 65, 30)
+            ctx.drawImage(this, 671, 226.4, 65, 30)
+            ctx.drawImage(this, 732, 226, 65, 30)
+        }
+
+        //绘制肠壁
+        function init_draw() {
+            /*
+            ctx.strokeStyle = "#FFA07A";
+            ctx.lineWidth = 5;
+            ctx.strokeRect(0, canvas.height, canvas.width, canvas.height)
+            ctx.strokeRect(0, 0, canvas.width, 0)
+            */
+            img_up.onload()
+            img_down.onload()
+        }
+
+        // 随机生成若干个乳酸菌
+        //var hua = document.getElementById("hpro ").value;
+        //hua=1
+        // const wtSet = new wtBacteriaSet()
+        // const intestinalSet = new intestinalBacteriaSet()
+
+var id;
+        //画
+        function drawFrame() {
+		
+            canvas.height = canvas.height // 清空画布
+            id=window.requestAnimationFrame(drawFrame, canvas)
+
+            init_draw()
+            wtSet.numWithLag = wtSet.numCounter.shift();
+            intestinalSet.numWithLag = intestinalSet.numCounter.shift();
+            wtSet.iterateByOneStep()
+            wtSet.calculateBacteriaNumber(intestinalSet)
+            intestinalSet.iterateByOneStep() // V3更改
+            intestinalSet.calculateBacteriaNumber(wtSet)
+
+        }
+
+        //刚一载入页面即绘制出肠壁
+        init_draw()
+    </script>
+    <br>
+
+    </br>
+    <div id="Chart" class="one"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var chartDom = document.getElementById('Chart'); //命名
+        var Chart = echarts.init(chartDom, 'westeros');
+        var option;
+
+        //获取工程菌数据
+        function DATA1() {
+            return {
+                name: total_second,
+                value: [
+                    total_second,
+                    Math.round(intestinalSet.mySet.length)
+                ]
+            };
+        }
+
+        //获取野生菌数据
+        function DATA2() {
+            return {
+                name: total_second,
+                value: [
+                    total_second,
+                    Math.round(wtSet.mySet.length)
+                ]
+            };
+        }
+
+        var data1 = [];
+        var data2 = [];
+
+        //统计图样式
+        option = {
+            title: {
+                text: 'Count Of LAB'
+            },
+            legend: {
+                data: ['Wild-type LAB', 'Engineered LAB']
+            },
+            //tooltip还要再改，放置显示有bug
+            tooltip: [{
+                trigger: 'axis',
+                axisPointer: {
+                    animation: true
+                }
+            }],
+            xAxis: {
+                type: '',
+                splitLine: {
+                    show: false
+                }
+            },
+            yAxis: {
+                type: 'value',
+                boundaryGap: [0, '10%'],
+                splitLine: {
+                    show: false
+                }
+            },
+            series: [{
+                name: 'Wild-type LAB',
+                type: 'line',
+                showSymbol: false,
+                hoverAnimation: true,
+                data: data2,
+                itemStyle: {
+                    color: "green",
+                    shadowBlur: 200,
+                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                }
+            }, {
+                name: 'Engineered LAB',
+                type: 'line',
+                showSymbol: false,
+                hoverAnimation: true,
+                data: data1,
+                itemStyle: {
+                    color: "red",
+                    shadowBlur: 200,
+                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                }
+            }]
+        };
+
+        //一秒更新一次数据
+        setInterval(function () {
+            if (isStart == true) {
+
+                data1.shift();
+                data1.push(DATA1());
+                data2.shift();
+                data2.push(DATA2());
+
+                Chart.setOption({
+                    series: [{
+                        data: data2
+                    }, {
+                        data: data1
+                    }]
+                })
+            }
+        }, 1000);
+
+    </script>
+
+    <div id="myChart" class="two"></div>
+    <script type="text/javascript">
+        var chartDom1 = document.getElementById('myChart');
+        var myChart = echarts.init(chartDom1, 'westeros');
+        var option1;
+
+
+
+        var BSHData = [[], [], [], [], [], [], [], [], [], []];
+        var legendData = [];
+        var legendString = ['1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th', '9th', '10th'];
+        // var BSHData[0] = [];
+        // var BSHData[1] = [];
+        // var BSHData[2] = [];
+        // var BSHData[3] = [];
+        // var BSHData[4] = [];
+
+
+        option1 = {
+            color: ['#80FFA5', '#00DDFF', '#37A2FF', '#FF0087', '#FFBF00', '#80FFA5', '#00DDFF', '#37A2FF', '#FF0087', '#FFBF00'],
+            title: {
+                text: 'BSH酶量堆叠图'
+            },
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                    type: 'cross',
+                    label: {
+                        backgroundColor: '#6a7985'
+                    }
+                }
+            },
+            legend: {
+                top: "10%",
+                data: legendData,//['1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th', '9th', '10th']
+            },
+            toolbox: {
+                feature: {
+                    saveAsImage: {}
+                }
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+            xAxis: [{
+                type: 'category',
+                boundaryGap: false,
+            }],
+            yAxis: [{
+                type: 'value'
+            }],
+            series: [{
+                name: '1st',
+                type: 'line',
+                stack: '总量',
+                smooth: true,
+                lineStyle: {
+                    width: 0
+                },
+                showSymbol: false,
+                areaStyle: {
+                    opacity: 0.8,
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                        offset: 0,
+                        color: 'rgba(128, 255, 165)'
+                    }, {
+                        offset: 1,
+                        color: 'rgba(1, 191, 236)'
+                    }])
+                },
+                emphasis: {
+                    focus: 'series'
+                },
+                data: BSHData[0],//[200, 170, 120, 64, 34, 22, 0, 0]
+            }, {
+                name: '2nd',
+                type: 'line',
+                stack: '总量',
+                smooth: true,
+                lineStyle: {
+                    width: 0
+                },
+                showSymbol: false,
+                areaStyle: {
+                    opacity: 0.8,
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                        offset: 0,
+                        color: 'rgba(0, 221, 255)'
+                    }, {
+                        offset: 1,
+                        color: 'rgba(77, 119, 255)'
+                    }])
+                },
+                emphasis: {
+                    focus: 'series'
+                },
+                data: BSHData[1],//[0, 190, 90, 40, 30, 5, 0, 0]
+            }, {
+                name: '3rd',
+                type: 'line',
+                stack: '总量',
+                smooth: true,
+                lineStyle: {
+                    width: 0
+                },
+                showSymbol: false,
+                areaStyle: {
+                    opacity: 0.8,
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                        offset: 0,
+                        color: 'rgba(55, 162, 255)'
+                    }, {
+                        offset: 1,
+                        color: 'rgba(116, 21, 219)'
+                    }])
+                },
+                emphasis: {
+                    focus: 'series'
+                },
+                data: BSHData[2],//[0, 0, 180, 124, 90, 30, 20, 5]
+            }, {
+                name: '4th',
+                type: 'line',
+                stack: '总量',
+                smooth: true,
+                lineStyle: {
+                    width: 0
+                },
+                showSymbol: false,
+                areaStyle: {
+                    opacity: 0.8,
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                        offset: 0,
+                        color: 'rgba(255, 0, 135)'
+                    }, {
+                        offset: 1,
+                        color: 'rgba(135, 0, 157)'
+                    }])
+                },
+                emphasis: {
+                    focus: 'series'
+                },
+                data: BSHData[3],//[0, 0, 0, 140, 110, 80, 60, 50]
+            }, {
+                name: '5th',
+                type: 'line',
+                stack: '总量',
+                smooth: true,
+                lineStyle: {
+                    width: 0
+                },
+                showSymbol: false,
+                label: {
+                    show: true,
+                    position: 'top'
+                },
+                areaStyle: {
+                    opacity: 0.8,
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                        offset: 0,
+                        color: 'rgba(255, 191, 0)'
+                    }, {
+                        offset: 1,
+                        color: 'rgba(224, 62, 76)'
+                    }])
+                },
+                emphasis: {
+                    focus: 'series'
+                },
+                data: BSHData[4], //[0, 0, 0, 0, 80, 60, 40, 30]
+            }, {
+                name: '6th',
+                type: 'line',
+                stack: '总量',
+                smooth: true,
+                lineStyle: {
+                    width: 0
+                },
+                showSymbol: false,
+                areaStyle: {
+                    opacity: 0.8,
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                        offset: 0,
+                        color: 'rgba(128, 255, 165)'
+                    }, {
+                        offset: 1,
+                        color: 'rgba(1, 191, 236)'
+                    }])
+                },
+                emphasis: {
+                    focus: 'series'
+                },
+                data: BSHData[5],//[200, 170, 120, 64, 34, 22, 0, 0]
+            }, {
+                name: '7th',
+                type: 'line',
+                stack: '总量',
+                smooth: true,
+                lineStyle: {
+                    width: 0
+                },
+                showSymbol: false,
+                areaStyle: {
+                    opacity: 0.8,
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                        offset: 0,
+                        color: 'rgba(0, 221, 255)'
+                    }, {
+                        offset: 1,
+                        color: 'rgba(77, 119, 255)'
+                    }])
+                },
+                emphasis: {
+                    focus: 'series'
+                },
+                data: BSHData[6],//[0, 190, 90, 40, 30, 5, 0, 0]
+            }, {
+                name: '8th',
+                type: 'line',
+                stack: '总量',
+                smooth: true,
+                lineStyle: {
+                    width: 0
+                },
+                showSymbol: false,
+                areaStyle: {
+                    opacity: 0.8,
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                        offset: 0,
+                        color: 'rgba(55, 162, 255)'
+                    }, {
+                        offset: 1,
+                        color: 'rgba(116, 21, 219)'
+                    }])
+                },
+                emphasis: {
+                    focus: 'series'
+                },
+                data: BSHData[7],//[0, 0, 180, 124, 90, 30, 20, 5]
+            }, {
+                name: '9th',
+                type: 'line',
+                stack: '总量',
+                smooth: true,
+                lineStyle: {
+                    width: 0
+                },
+                showSymbol: false,
+                areaStyle: {
+                    opacity: 0.8,
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                        offset: 0,
+                        color: 'rgba(255, 0, 135)'
+                    }, {
+                        offset: 1,
+                        color: 'rgba(135, 0, 157)'
+                    }])
+                },
+                emphasis: {
+                    focus: 'series'
+                },
+                data: BSHData[8],//[0, 0, 0, 140, 110, 80, 60, 50]
+            }, {
+                name: '10th',
+                type: 'line',
+                stack: '总量',
+                smooth: true,
+                lineStyle: {
+                    width: 0
+                },
+                showSymbol: false,
+                label: {
+                    show: true,
+                    position: 'top'
+                },
+                areaStyle: {
+                    opacity: 0.8,
+                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                        offset: 0,
+                        color: 'rgba(255, 191, 0)'
+                    }, {
+                        offset: 1,
+                        color: 'rgba(224, 62, 76)'
+                    }])
+                },
+                emphasis: {
+                    focus: 'series'
+                },
+                data: BSHData[9], //[0, 0, 0, 0, 80, 60, 40, 30]
+            }]
+        };
+        // var interval = 100;
+        // var timeCount1 = 1;
+        // var timeCount2 = 1;
+        // var timeCount3 = 1;
+        // var timeCount4 = 1;
+        // var timeCount5 = 1;
+
+        var BSH = [];
+        for (var i = 0; i < count; i++) {
+            BSH.push(0);
+        }
+        var totalTime = 0;
+        setInterval(function () {
+            if (isStart == true) {
+                intestinalSet.calculateEachRoundBacteria();
+                for (var i = 0; i < count; i++) {
+                    BSH[i] += intestinalSet.roundCounter[i];
+                }
+                if (totalTime % 10 == 0) {
+                    if (count >= 1) {
+                        legendData.length = 0;
+                        for (var i = 0; i < count; i++) {
+                            legendData.push(legendString[i]);
+                            BSHData[i].push(BSH[i]);
+                        }
+                        for (var i = count; i < 10; i++) {
+                            BSHData[i].push(0);
+                        }
+                        // switch(count) {
+                        //     case 0:
+                        //         break;
+                        //     case 1:
+                        //         BSHData[0].push(hua/timeCount1);
+                        //         BSHData[1].push(0);
+                        //         BSHData[2].push(0);
+                        //         BSHData[3].push(0);
+                        //         BSHData[4].push(0);
+                        //         timeCount1+=0.5;
+                        //         break;
+                        //     case 2:
+                        //         BSHData[0].push(hua/2/timeCount2);
+                        //         BSHData[1].push(hua/timeCount2);
+                        //         BSHData[2].push(0);
+                        //         BSHData[3].push(0);
+                        //         BSHData[4].push(0);
+                        //         timeCount2+=0.5;
+                        //         break;
+                        //     case 3:
+                        //         BSHData[0].push(hua/3/timeCount3);
+                        //         BSHData[1].push(hua/2/timeCount3);
+                        //         BSHData[2].push(hua/timeCount3);
+                        //         BSHData[3].push(0);
+                        //         BSHData[4].push(0);
+                        //         timeCount3+=0.5;
+                        //         break;
+                        //     case 4:
+                        //         BSHData[0].push(hua/4/timeCount4);
+                        //         BSHData[1].push(hua/3/timeCount4);
+                        //         BSHData[2].push(hua/2/timeCount4);
+                        //         BSHData[3].push(hua/timeCount4);
+                        //         BSHData[4].push(0);
+                        //         timeCount4+=0.5;
+                        //         break;
+                        //     default:
+                        //         BSHData[0].push(hua/5/timeCount5);
+                        //         BSHData[1].push(hua/4/timeCount5);
+                        //         BSHData[2].push(hua/3/timeCount5);
+                        //         BSHData[3].push(hua/2/timeCount5);
+                        //         BSHData[4].push(hua/timeCount5);
+                        //         timeCount5+=0.5;
+                        //         break;
+                        //     // default:
+                        //     //     BSHData[0].push(interval/5);
+                        //     //     BSHData[1].push(interval/4);
+                        //     //     BSHData[2].push(interval/3);
+                        //     //     BSHData[3].push(interval/2);
+                        //     //     BSHData[4].push(interval);
+                        //     //     interval /= 2;
+                        //     //     break;
+                        // }
+
+                      
+                    }else{
+                        BSHData[0].push(hua/timeCount1);
+                                BSHData[1].push(0);
+                              BSHData[2].push(0);
+                               BSHData[3].push(0);
+                                 BSHData[4].push(0);
+                    }
+
+                    myChart.setOption(
+                            //     {
+                            //     series: [{
+                            //         data: BSHData[0]
+                            //     }, {
+                            //         data: BSHData[1]
+                            //     }, {
+                            //         data: BSHData[2]
+                            //     }, {
+                            //         data: BSHData[3]
+                            //     }, {
+                            //         data: BSHData[4]
+                            //     }]
+                            // }
+                            option1
+                        )
+                    BSH.length = 0;
+                    for (var i = 0; i < count; i++) {
+                        BSH.push(0);
+                    }
+                    legendData.length = 0;
+                }
+            }
+            totalTime++;
+        }, 100);
+
+    </script>
+
+</body>
+
+</html>
+
+</html>
