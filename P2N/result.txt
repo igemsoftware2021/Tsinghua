@@ -1,0 +1,331 @@
+--------------------------------
+
+2021-09-26 01:10:34
+
+Result:
+
+0: ACATGA
+
+--------------------------------
+
+2021-09-26 01:11:44
+
+Result:
+
+0: ATTGGACTTAAATGA
+
+1: ACGTGGCTGCCGGTGAAAGTGTGA
+
+--------------------------------
+
+2021-09-26 01:34:53
+
+Result: 1	Species: chloroplast Escallonia calcottiae 
+
+Gene Name	DNA sequence	Avoid restriction sites		Is adding stop codon	
+--------------------------------
+
+2021-09-26 01:41:20
+
+Result: 1	Species: chloroplast Escallonia myrtoidea 
+
+Gene Name	DNA sequence	Avoid restriction sites		Is adding stop codon	
+0	ATTGGTCCTAAATTATGA	AatII,BalI	False
+
+--------------------------------
+
+2021-09-26 01:42:30
+
+Result: 1	Species: Escherichia coli O127:H6 
+
+Gene Name	DNA sequence	Avoid restriction sites		Is adding stop codon	
+0	AAAAAAAAAACCCCGCTGTAA	AauI	True
+
+--------------------------------
+
+2021-09-26 01:46:56
+
+Result: 3	Species: chloroplast Escallonia calcottiae 
+
+Gene Name	DNA sequence	Avoid restriction sites	Is adding stop codon
+
+0	AAAAAAAAACCACCTCCCCCATGTTGA	ApiI	True
+
+1	TTTTTTTTTTTTTTTTTTTGA	AatII	False
+
+2	GCTGCAGCTGCTGCTGCAGCTGCTGCTACTACTACTACAACAACAACTACAACAACTACTACTTGA	AatII	True
+
+--------------------------------
+
+2021-09-26 02:03:01
+
+Result: 3	Species: chloroplast Escallonia calcottiae 
+
+Gene Name	DNA sequence	Avoid restriction sites	Is adding stop codon
+
+0	AAAAAAAAACCTGTTTGA	AatII,AbaI	True
+
+1	GCTGCTACTACTACTACTACTGCTGCAGCAGCTGCTGCTTGA		False
+
+2	CCTAGAGGTATATATATGGCTTGA	AagI	True
+
+--------------------------------
+
+2021-09-26 02:04:29
+
+Result: 3	Species: chloroplast Escallonia calcottiae 
+
+Gene Name	DNA sequence	Avoid restriction sites	Is adding stop codon
+
+0	AAAAAAAAAAATCCCCCTCCCCCATGA	AauI	True
+
+1	GCTGCTGCTGCTGCAGCTGCTGCTGCTGCTGCTGCTACAACTACTACTACAACTACTACTACAACAACAACTTGA		False
+
+2	AAAACTTGTTGATTAGCATATTGA	AagI,AclWI,AhaIII	True
+
+--------------------------------
+
+2021-09-26 22:19:41
+
+Result: 1	Species: chloroplast Escallonia calcottiae 
+
+Gene Name	DNA sequence	Avoid restriction sites	Is adding stop codon
+
+0	CATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATTGA	AatII,AclNI	True
+
+--------------------------------
+
+2021-09-26 22:24:27
+
+Result: 1	Species: chloroplast Escallonia illinita 
+
+Gene Name	DNA sequence	Avoid restriction sites	Is adding stop codon
+
+0	CATCATCATCATCATCATCATCATCATCATCATCATTGA	AanI	True
+
+--------------------------------
+
+2021-09-26 22:29:13
+
+Result: 1	Species: chloroplast Escallonia pulverulenta 
+
+Gene Name	DNA sequence	Avoid restriction sites	Is adding stop codon
+
+0	CATCATCATCATCATCATCATCATCATCATCATCATCATCATCATTGA	AanI	True
+
+--------------------------------
+
+2021-09-26 22:30:59
+
+Result: 1	Species: Escherichia coli O111:H- 
+
+Gene Name	DNA sequence	Avoid restriction sites	Is adding stop codon
+
+0	CATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATTGA	AarI	True
+
+--------------------------------
+
+2021-09-26 22:32:56
+
+Result: 1	Species: chloroplast Escallonia calcottiae 
+
+Gene Name	DNA sequence	Avoid restriction sites	Is adding stop codon
+
+0	CATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATTGA	AauI	True
+
+--------------------------------
+
+2021-09-26 22:40:07
+
+Result: 1	Species: chloroplast Escallonia calcottiae 
+
+Gene Name	DNA sequence	Avoid restriction sites	Is adding stop codon
+
+0	CATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATTGA	AatI	True
+
+--------------------------------
+
+2021-09-26 23:12:32
+
+Result: 1	Species: chloroplast Escallonia illinita 
+
+Gene Name	DNA sequence	Avoid restriction sites	Is adding stop codon
+
+0	CATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATTGA	AarI,AccIII	True
+
+--------------------------------
+
+2021-09-26 23:13:32
+
+Result: 1	Species: Escherichia coli O111:H- 
+
+Gene Name	DNA sequence	Avoid restriction sites	Is adding stop codon
+
+0	CATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATTGA	AatI,AspLEI	True
+
+--------------------------------
+
+2021-09-26 23:15:51
+
+Result: 1	Species: chloroplast Escallonia pulverulenta 
+
+Gene Name	DNA sequence	Avoid restriction sites	Is adding stop codon
+
+0	CATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATTGA	AagI,BfrI	True
+
+--------------------------------
+
+2021-09-26 23:18:18
+
+Result: 1	Species: Escherichia coli O111:H- 
+
+Gene Name	DNA sequence	Avoid restriction sites	Is adding stop codon
+
+0	CATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATTGA	AatI,BcoKI	True
+
+--------------------------------
+
+2021-09-26 23:18:51
+
+Result: 4	Species: Escherichia coli O111:H- 
+
+Gene Name	DNA sequence	Avoid restriction sites	Is adding stop codon
+
+0	CATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATTGA	AatI,BcoKI	True
+
+1	CATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATCATTGA	AatI,BcoKI	True
+
+2	ATTGGCTGAGGCCCACTGAAATGA	AhyI,BfiI	False
+
+3	AAAAAAAAAAAACCTCCGTGA		True
+
+--------------------------------
+
+2021-09-27 00:07:32
+
+Result: 3	Species: Eschaneustyla sp. LCW-2005 
+
+Gene Name	DNA sequence	Avoid restriction sites	Is adding stop codon
+
+0	CACCACCACCACCACCACCACCACCACCACCACCACCACCACCACCACCACCACTAA		False
+
+1	AAAAAAAAAAAAAAAAAATAA		False
+
+2	ATTGTTGCTAGTTAAACTTAA		False
+
+--------------------------------
+
+2021-10-03 20:08:42
+
+Result: 0	Species: (None)
+
+Gene Name	DNA sequence	Avoid restriction sites	Is adding stop codon
+
+--------------------------------
+
+2021-10-03 20:08:50
+
+Result: 1	Species: (None)
+
+Gene Name	DNA sequence	Avoid restriction sites	Is adding stop codon
+
+0	AAGAAGAAGTAA		False
+
+--------------------------------
+
+2021-10-10 22:25:33
+
+Result: 0	Species: mitochondrion Hyposcada illinissa 
+
+Gene Name	DNA sequence	Avoid restriction sites	Is adding stop codon
+
+--------------------------------
+
+2021-10-10 22:26:24
+
+Result: 0	Species: mitochondrion Hyposcada illinissa 
+
+Gene Name	DNA sequence	Avoid restriction sites	Is adding stop codon
+
+--------------------------------
+
+2021-10-10 22:27:57
+
+Result: 0	Species: chloroplast Agonis flexuosa 
+
+Gene Name	DNA sequence	Avoid restriction sites	Is adding stop codon
+
+--------------------------------
+
+2021-10-10 22:29:36
+
+Result: 0	Species: chloroplast Ophiopogon planiscapus 
+
+Gene Name	DNA sequence	Avoid restriction sites	Is adding stop codon
+
+--------------------------------
+
+2021-10-10 22:34:29
+
+Result: 0	Species: mitochondrion Neofundulus ornatipinnis 
+
+Gene Name	DNA sequence	Avoid restriction sites	Is adding stop codon
+
+--------------------------------
+
+2021-10-10 22:41:14
+
+Result: 1	Species: Hantaan virus Lee 
+
+Gene Name	DNA sequence	Avoid restriction sites
+
+0	AAAAAATAG	AarI
+
+--------------------------------
+
+2021-10-10 23:43:22
+
+Result: 0	Species: Lactobacillus delbrueckii subsp. bulgaricus ATCC BAA-365 
+
+Gene Name	DNA sequence	Avoid restriction sites
+
+--------------------------------
+
+2021-10-10 23:53:59
+
+Result: 0	Species: 
+
+Gene Name	DNA sequence	Avoid restriction sites
+
+--------------------------------
+
+2021-10-10 23:54:31
+
+Result: 0	Species: 
+
+Gene Name	DNA sequence	Avoid restriction sites
+
+--------------------------------
+
+2021-10-10 23:54:50
+
+Result: 0	Species: 
+
+Gene Name	DNA sequence	Avoid restriction sites
+
+--------------------------------
+
+2021-10-10 23:55:47
+
+Result: 0	Species: 
+
+Gene Name	DNA sequence	Avoid restriction sites
+
+--------------------------------
+
+2021-10-10 23:55:56
+
+Result: 0	Species: 
+
+Gene Name	DNA sequence	Avoid restriction sites
+

@@ -1,0 +1,969 @@
+<tbody><tr>
+<td>GACGT/C</td>
+<td><a href="/products/r0117-aatii">AatII</a></td>
+</tr>
+<tr>
+<td>CNNNNNNNNNNN/NNNNNNNNNG</td>
+<td><a href="/products/r0665-abasi">AbaSI</a></td>
+</tr>
+<tr>
+<td>G/GTACC</td>
+<td><a href="/products/r0599-acc65i">Acc65I</a></td>
+</tr>
+<tr>
+<td>GT/MKAC</td>
+<td><a href="/products/r0161-acci">AccI</a></td>
+</tr>
+<tr>
+<td>CCGC(-3/-1)</td>
+<td><a href="/products/r0551-acii">AciI</a></td>
+</tr>
+<tr>
+<td>AA/CGTT</td>
+<td><a href="/products/r0598-acli">AclI</a></td>
+</tr>
+<tr>
+<td>CTGAAG(16/14)</td>
+<td><a href="/products/r0641-acui">AcuI</a></td>
+</tr>
+<tr>
+<td>AGC/GCT</td>
+<td><a href="/products/r0652-afei">AfeI</a></td>
+</tr>
+<tr>
+<td>C/TTAAG</td>
+<td><a href="/products/r0520-aflii">AflII</a></td>
+</tr>
+<tr>
+<td>A/CRYGT</td>
+<td><a href="/products/r0541-afliii">AflIII</a></td>
+</tr>
+<tr>
+<td>A/CCGGT</td>
+<td><a href="/products/r0552-agei">AgeI</a> <a href="/products/r3552-agei-hf">AgeI-HF®</a></td>
+</tr>
+<tr>
+<td>GACNNN/NNGTC</td>
+<td><a href="/products/r0584-ahdi">AhdI</a></td>
+</tr>
+<tr>
+<td>CACNN/NNGTG</td>
+<td><a href="/products/r0685-alei-v2">AleI-v2</a></td>
+</tr>
+<tr>
+<td>AG/CT</td>
+<td><a href="/products/r0137-alui">AluI</a></td>
+</tr>
+<tr>
+<td>GGATC(4/5)</td>
+<td><a href="/products/r0513-alwi">AlwI</a></td>
+</tr>
+<tr>
+<td>CAGNNN/CTG</td>
+<td><a href="/products/r0514-alwni">AlwNI</a></td>
+</tr>
+<tr>
+<td>GGGCC/C</td>
+<td><a href="/products/r0114-apai">ApaI</a></td>
+</tr>
+<tr>
+<td>G/TGCAC</td>
+<td><a href="/products/r0507-apali">ApaLI</a></td>
+</tr>
+<tr>
+<td>R/AATTY</td>
+<td><a href="/products/r0566-apoi">ApoI</a> <a href="/products/r3566-apoi-hf">ApoI-HF</a></td>
+</tr>
+<tr>
+<td>GG/CGCGCC</td>
+<td><a href="/products/r0558-asci">AscI</a></td>
+</tr>
+<tr>
+<td>AT/TAAT</td>
+<td><a href="/products/r0526-asei">AseI</a></td>
+</tr>
+<tr>
+<td>GCGAT/CGC</td>
+<td><a href="/products/r0630-asisi">AsiSI</a></td>
+</tr>
+<tr>
+<td>C/YCGRG</td>
+<td><a href="/products/r0152-avai">AvaI</a> <a href="/products/r0586-bsobi">BsoBI</a></td>
+</tr>
+<tr>
+<td>G/GWCC</td>
+<td><a href="/products/r0153-avaii">AvaII</a></td>
+</tr>
+<tr>
+<td>C/CTAGG</td>
+<td><a href="/products/r0174-avrii">AvrII</a></td>
+</tr>
+<tr>
+<td>GKGCM/C</td>
+<td><a href="/products/r0708-baegi">BaeGI</a></td>
+</tr>
+<tr>
+<td>(10/15)ACNNNNGTAYC(12/7)</td>
+<td><a href="/products/r0613-baei">BaeI</a></td>
+</tr>
+<tr>
+<td>G/GATCC</td>
+<td><a href="/products/r0136-bamhi">BamHI</a> <a href="/products/r3136-bamhi-hf">BamHI-HF®</a></td>
+</tr>
+<tr>
+<td>G/GYRCC</td>
+<td><a href="/products/r0118-bani">BanI</a></td>
+</tr>
+<tr>
+<td>GRGCY/C</td>
+<td><a href="/products/r0119-banii">BanII</a></td>
+</tr>
+<tr>
+<td>GAAGAC(2/6)</td>
+<td><a href="/products/r0539-bbsi">BbsI</a> <a href="/products/r3539-bbsi-hf">BbsI-HF<sup>®</sup></a></td>
+</tr>
+<tr>
+<td>CCTCAGC(-5/-2)</td>
+<td><a href="/products/r0601-bbvci">BbvCI</a></td>
+</tr>
+<tr>
+<td>GCAGC(8/12)</td>
+<td><a href="/products/r0173-bbvi">BbvI</a></td>
+</tr>
+<tr>
+<td>CCATC(4/5)</td>
+<td><a href="/products/r0704-bcci">BccI</a></td>
+</tr>
+<tr>
+<td>ACGGC(12/14)</td>
+<td><a href="/products/r0623-bceai">BceAI</a></td>
+</tr>
+<tr>
+<td>(10/12)CGANNNNNNTGC(12/10)</td>
+<td><a href="/products/r0545-bcgi">BcgI</a></td>
+</tr>
+<tr>
+<td>GTATCC(6/5)</td>
+<td><a href="/products/r0596-bcivi">BciVI</a></td>
+</tr>
+<tr>
+<td>T/GATCA</td>
+<td><a href="/products/r0160-bcli">BclI</a> <a href="/products/r3160-bcli-hf">BclI-HF</a></td>
+</tr>
+<tr>
+<td>C/TAG</td>
+<td><a href="/products/r0568-bfai">BfaI</a></td>
+</tr>
+<tr>
+<td>GCCNNNN/NGGC</td>
+<td><a href="/products/r0143-bgli">BglI</a></td>
+</tr>
+<tr>
+<td>A/GATCT</td>
+<td><a href="/products/r0144-bglii">BglII</a></td>
+</tr>
+<tr>
+<td>GC/TNAGC</td>
+<td><a href="/products/r0585-blpi">BlpI</a></td>
+</tr>
+<tr>
+<td>CACGTC(-3/-3)</td>
+<td><a href="/products/r0628-bmgbi">BmgBI</a></td>
+</tr>
+<tr>
+<td>ACTGGG(5/4)</td>
+<td><a href="/products/r0600-bmri">BmrI</a></td>
+</tr>
+<tr>
+<td>GCTAG/C</td>
+<td><a href="/products/r0658-bmti">BmtI</a> <a href="/products/r3658-bmti-hf">BmtI-HF®</a></td>
+</tr>
+<tr>
+<td>CTGGAG(16/14)</td>
+<td><a href="/products/r0565-bpmi">BpmI</a></td>
+</tr>
+<tr>
+<td>CTTGAG(16/14)</td>
+<td><a href="/products/r0633-bpuei">BpuEI</a></td>
+</tr>
+<tr>
+<td>CCTNAGC(-5/-2)</td>
+<td><a href="/products/r0649-bpu10i">Bpu10I</a></td>
+</tr>
+<tr>
+<td>YAC/GTR</td>
+<td><a href="/products/r0531-bsaai">BsaAI</a></td>
+</tr>
+<tr>
+<td>GATNN/NNATC</td>
+<td><a href="/products/r0537-bsabi">BsaBI</a></td>
+</tr>
+<tr>
+<td>GR/CGYC</td>
+<td><a href="/products/r0556-bsahi">BsaHI</a></td>
+</tr>
+<tr>
+<td>GGTCTC(1/5)</td>
+<td><a href="/products/r3733-bsai-hf-v2">BsaI-HF®v2</a></td>
+</tr>
+<tr>
+<td>C/CNNGG</td>
+<td><a href="/products/r0536-bsaji">BsaJI</a></td>
+</tr>
+<tr>
+<td>W/CCGGW</td>
+<td><a href="/products/r0567-bsawi">BsaWI</a></td>
+</tr>
+<tr>
+<td>(9/12)ACNNNNNCTCC(10/7)</td>
+<td><a href="/products/r0609-bsaxi">BsaXI</a></td>
+</tr>
+<tr>
+<td>GAGGAG(10/8)</td>
+<td><a href="/products/r0581-bseri">BseRI</a></td>
+</tr>
+<tr>
+<td>CCCAGC(-5/-1)</td>
+<td><a href="/products/r0635-bseyi">BseYI</a></td>
+</tr>
+<tr>
+<td>GTGCAG(16/14)</td>
+<td><a href="/products/r0559-bsgi">BsgI</a></td>
+</tr>
+<tr>
+<td>CGRY/CG</td>
+<td><a href="/products/r0554-bsiei">BsiEI</a></td>
+</tr>
+<tr>
+<td>GWGCW/C</td>
+<td><a href="/products/r0570-bsihkai">BsiHKAI</a></td>
+</tr>
+<tr>
+<td>C/GTACG</td>
+<td><a href="/products/r0553-bsiwi">BsiWI</a> <a href="/products/r3553-bsiwi-hf">BsiWI-HF<sup>®</sup></a></td>
+</tr>
+<tr>
+<td>CCNNNNN/NNGG</td>
+<td><a href="/products/r0555-bsli">BslI</a></td>
+</tr>
+<tr>
+<td>GTCTC(1/5)</td>
+<td><a href="/products/r0529-bsmai">BsmAI</a> <a href="/products/r0542-bcodi">BcoDI</a></td>
+</tr>
+<tr>
+<td>CGTCTC</td>
+<td><a href="/products/r0739-bsmbi-v2">BsmBI-v2</a></td>
+</tr>
+<tr>
+<td>GGGAC(10/14)</td>
+<td><a href="/products/r0572-bsmfi">BsmFI</a></td>
+</tr>
+<tr>
+<td>GAATGC(1/-1)</td>
+<td><a href="/products/r0134-bsmi">BsmI</a></td>
+</tr>
+<tr>
+<td>CTCAG(9/7)</td>
+<td><a href="/products/r0624-bspcni">BspCNI</a></td>
+</tr>
+<tr>
+<td>T/CCGGA</td>
+<td><a href="/products/r0540-bspei">BspEI</a></td>
+</tr>
+<tr>
+<td>T/CATGA</td>
+<td><a href="/products/r0517-bsphi">BspHI</a></td>
+</tr>
+<tr>
+<td>GDGCH/C</td>
+<td><a href="/products/r0120-bsp1286i">Bsp1286I</a></td>
+</tr>
+<tr>
+<td>ACCTGC(4/8)</td>
+<td><a href="/products/r0502-bspmi">BspMI</a> <a href="/products/r0701-bfuai">BfuAI</a></td>
+</tr>
+<tr>
+<td>CCGCTC(-3/-3)</td>
+<td><a href="/products/r0102-bsrbi">BsrBI</a></td>
+</tr>
+<tr>
+<td>GCAATG(2/0)</td>
+<td><a href="/products/r0574-bsrdi">BsrDI</a></td>
+</tr>
+<tr>
+<td>R/CCGGY</td>
+<td><a href="/products/r0682-bsrfi-v2">BsrFI-v2</a></td>
+</tr>
+<tr>
+<td>T/GTACA</td>
+<td><a href="/products/r0575-bsrgi">BsrGI</a> <a href="/products/r3575-bsrgi-hf">BsrGI-HF®</a></td>
+</tr>
+<tr>
+<td>ACTGG(1/-1)</td>
+<td><a href="/products/r0527-bsri">BsrI</a></td>
+</tr>
+<tr>
+<td>G/CGCGC</td>
+<td><a href="/products/r0199-bsshii">BssHII</a></td>
+</tr>
+<tr>
+<td>CACGAG(-5/-1)</td>
+<td><a href="/products/r0680-bsssi-v2">BssSI-v2</a></td>
+</tr>
+<tr>
+<td>GCANNNN/NTGC</td>
+<td><a href="/products/r0654-bstapi">BstAPI</a></td>
+</tr>
+<tr>
+<td>TT/CGAA</td>
+<td><a href="/products/r0519-bstbi">BstBI</a></td>
+</tr>
+<tr>
+<td>G/GTNACC</td>
+<td><a href="/products/r0162-bsteii">BstEII&nbsp;</a> <a href="/products/r3162-bsteii-hf">BstEII-HF®</a></td>
+</tr>
+<tr>
+<td>CC/WGG</td>
+<td><a href="/products/r0168-bstni">BstNI</a></td>
+</tr>
+<tr>
+<td>CG/CG</td>
+<td><a href="/products/r0518-bstui">BstUI</a></td>
+</tr>
+<tr>
+<td>CCANNNNN/NTGG</td>
+<td><a href="/products/r0113-bstxi">BstXI</a></td>
+</tr>
+<tr>
+<td>R/GATCY</td>
+<td><a href="/products/r0523-bstyi">BstYI</a></td>
+</tr>
+<tr>
+<td>GTATAC</td>
+<td><a href="/products/r3594-bstz17i-hf">BstZ17I-HF<sup>®</sup></a></td>
+</tr>
+<tr>
+<td>CC/TNAGG</td>
+<td><a href="/products/r0524-bsu36i">Bsu36I</a></td>
+</tr>
+<tr>
+<td>C/CRYGG</td>
+<td><a href="/products/r0608-btgi">BtgI</a></td>
+</tr>
+<tr>
+<td>GCGATG(10/14)</td>
+<td><a href="/products/r0703-btgzi">BtgZI</a></td>
+</tr>
+<tr>
+<td>GGATG(2/0)</td>
+<td><a href="/products/r0647-btsci">BtsCI</a></td>
+</tr>
+<tr>
+<td>CAGTG(2/0)</td>
+<td><a href="/products/r0664-btsimuti">BtsIMutI</a></td>
+</tr>
+<tr>
+<td>GCAGTG(2/0)</td>
+<td><a href="/products/r0667-btsi-v2">BtsI-v2</a></td>
+</tr>
+<tr>
+<td>GCN/NGC</td>
+<td><a href="/products/r0579-cac8i">Cac8I</a></td>
+</tr>
+<tr>
+<td>AT/CGAT</td>
+<td><a href="/products/r0197-clai">ClaI</a> <a href="/products/r0557-bspdi">BspDI</a></td>
+</tr>
+<tr>
+<td>(11/13)CAANNNNNGTGG(12/10)</td>
+<td><a href="/products/r0645-cspci">CspCI</a></td>
+</tr>
+<tr>
+<td>C/ATG</td>
+<td><a href="/products/r0640-cviaii">CviAII</a></td>
+</tr>
+<tr>
+<td>RG/CY</td>
+<td><a href="/products/r0710-cviki-1">CviKI-1</a></td>
+</tr>
+<tr>
+<td>G/TAC</td>
+<td><a href="/products/r0639-cviqi">CviQI</a></td>
+</tr>
+<tr>
+<td>C/TNAG</td>
+<td><a href="/products/r0175-ddel">DdeI</a></td>
+</tr>
+<tr>
+<td>GA/TC</td>
+<td><a href="/products/r0176-dpni">DpnI</a></td>
+</tr>
+<tr>
+<td>TTT/AAA</td>
+<td><a href="/products/r0129-drai">DraI</a></td>
+</tr>
+<tr>
+<td>CACNNN/GTG</td>
+<td><a href="/products/r3510-draiii-hf">DraIII-HF®</a></td>
+</tr>
+<tr>
+<td>GACNNNN/NNGTC</td>
+<td><a href="/products/r0530-drdi">DrdI</a></td>
+</tr>
+<tr>
+<td>Y/GGCCR</td>
+<td><a href="/products/r0508-eaei">EaeI</a></td>
+</tr>
+<tr>
+<td>C/GGCCG</td>
+<td><a href="/products/r3505-eagi-hf">EagI-HF®</a></td>
+</tr>
+<tr>
+<td>CTCTTC(1/4)</td>
+<td><a href="/products/r0528-eari">EarI</a></td>
+</tr>
+<tr>
+<td>GGCGGA(11/9)</td>
+<td><a href="/products/r0590-ecii">EciI</a></td>
+</tr>
+<tr>
+<td>GAG/CTC</td>
+<td><a href="/products/r0116-eco53ki">Eco53kI</a></td>
+</tr>
+<tr>
+<td>CCTNN/NNNAGG</td>
+<td><a href="/products/r0521-econi">EcoNI</a></td>
+</tr>
+<tr>
+<td>RG/GNCCY</td>
+<td><a href="/products/r0503-ecoo109i">EcoO109I</a></td>
+</tr>
+<tr>
+<td>CAGCAG(25/27)</td>
+<td><a href="/products/r0646-ecop15i">EcoP15I</a></td>
+</tr>
+<tr>
+<td>G/AATTC</td>
+<td><a href="/products/r0101-ecori">EcoRI</a> <a href="/products/r3101-ecori-hf">EcoRI-HF®</a></td>
+</tr>
+<tr>
+<td>GAT/ATC</td>
+<td><a href="/products/r0195-ecorv">EcoRV</a> <a href="/products/r3195-ecorv-hf">EcoRV-HF®</a></td>
+</tr>
+<tr>
+<td>CGTCTC(1/5)</td>
+<td><a href="/products/r0734-esp3i">Esp3I</a></td>
+</tr>
+<tr>
+<td>/CATG</td>
+<td><a href="/products/r0650-fati">FatI</a></td>
+</tr>
+<tr>
+<td>CCCGC(4/6)</td>
+<td><a href="/products/r0651-faui">FauI</a></td>
+</tr>
+<tr>
+<td>GC/NGC</td>
+<td><a href="/products/r0178-fnu4hi">Fnu4HI</a></td>
+</tr>
+<tr>
+<td>GGATG(9/13)</td>
+<td><a href="/products/r0109-foki">FokI</a></td>
+</tr>
+<tr>
+<td>GGCCGG/CC</td>
+<td><a href="/products/r0588-fsei">FseI</a></td>
+</tr>
+<tr>
+<td>CC(12/16)</td>
+<td><a href="/products/r0662-fspei">FspEI</a></td>
+</tr>
+<tr>
+<td>TGC/GCA</td>
+<td><a href="/products/r0135-fspi">FspI</a></td>
+</tr>
+<tr>
+<td>RGCGC/Y</td>
+<td><a href="/products/r0107-haeii">HaeII</a></td>
+</tr>
+<tr>
+<td>GG/CC</td>
+<td><a href="/products/r0108-haeiii">HaeIII</a></td>
+</tr>
+<tr>
+<td>GACGC(5/10)</td>
+<td><a href="/products/r0154-hgai">HgaI</a></td>
+</tr>
+<tr>
+<td>GCG/C</td>
+<td><a href="/products/r0139-hhai">HhaI</a></td>
+</tr>
+<tr>
+<td>GTY/RAC</td>
+<td><a href="/products/r0103-hincii">HincII</a></td>
+</tr>
+<tr>
+<td>A/AGCTT</td>
+<td><a href="/products/r0104-hindiii">HindIII</a> <a href="/products/r3104-hindiii-hf">HindIII-HF®</a></td>
+</tr>
+<tr>
+<td>G/ANTC</td>
+<td><a href="/products/r0155-hinfi">HinfI</a></td>
+</tr>
+<tr>
+<td>G/CGC</td>
+<td><a href="/products/r0124-hinp1i">HinP1I</a></td>
+</tr>
+<tr>
+<td>GTT/AAC</td>
+<td><a href="/products/r0105-hpai">HpaI</a></td>
+</tr>
+<tr>
+<td>GGTGA(8/7)</td>
+<td><a href="/products/r0158-hphi">HphI</a></td>
+</tr>
+<tr>
+<td>CCTTC(6/5)</td>
+<td><a href="/products/r0621-hpyav">HpyAV</a></td>
+</tr>
+<tr>
+<td>ACN/GT</td>
+<td><a href="/products/r0618-hpych4iii">HpyCH4III</a></td>
+</tr>
+<tr>
+<td>A/CGT</td>
+<td><a href="/products/r0619-hpych4iv">HpyCH4IV</a></td>
+</tr>
+<tr>
+<td>TG/CA</td>
+<td><a href="/products/r0620-hpych4v">HpyCH4V</a></td>
+</tr>
+<tr>
+<td>CGWCG/</td>
+<td><a href="/products/r0615-hpy99i">Hpy99I</a></td>
+</tr>
+<tr>
+<td>TCN/GA</td>
+<td><a href="/products/r0617-hpy188i">Hpy188I</a></td>
+</tr>
+<tr>
+<td>GTN/NAC</td>
+<td><a href="/products/r0616-hpy166ii">Hpy166II</a></td>
+</tr>
+<tr>
+<td>TC/NNGA</td>
+<td><a href="/products/r0622-hpy188iii">Hpy188III</a></td>
+</tr>
+<tr>
+<td>TAACTATAACGGTCCTAAGGTAGCGAA(-9/-13)</td>
+<td><a href="/products/r0699-i-ceui">I-CeuI</a></td>
+</tr>
+<tr>
+<td>TAGGGATAACAGGGTAAT(-9/-13)</td>
+<td><a href="/products/r0694-i-scei">I-SceI</a></td>
+</tr>
+<tr>
+<td>G/GCGCC</td>
+<td><a href="/products/r0544-kasi">KasI</a></td>
+</tr>
+<tr>
+<td>GGTAC/C</td>
+<td><a href="/products/r0142-kpni">KpnI</a> <a href="/products/r3142-kpni-hf">KpnI-HF®</a></td>
+</tr>
+<tr>
+<td>CCDG(10/14)</td>
+<td><a href="/products/r0663-lpnpi">LpnPI</a></td>
+</tr>
+<tr>
+<td>/GATC</td>
+<td><a href="/products/r0147-mboi">MboI</a> <a href="/products/r0169-sau3ai">Sau3AI</a> <a href="/products/r0543-dpnii">DpnII</a></td>
+</tr>
+<tr>
+<td>GAAGA(8/7)</td>
+<td><a href="/products/r0148-mboii">MboII</a></td>
+</tr>
+<tr>
+<td>C/AATTG</td>
+<td><a href="/products/r0589-mfei">MfeI</a> <a href="/products/r3589-mfei-hf">MfeI-HF®</a></td>
+</tr>
+<tr>
+<td>/AATT</td>
+<td><a href="/products/r0538-mluci">MluCI</a></td>
+</tr>
+<tr>
+<td>A/CGCGT</td>
+<td><a href="/products/r0198-mlui">MluI</a> <a href="/products/r3198-mlui-hf">MluI-HF®</a></td>
+</tr>
+<tr>
+<td>GAGTC(5/5)</td>
+<td><a href="/products/r0610-mlyi">MlyI</a></td>
+</tr>
+<tr>
+<td>TCCRAC(20/18)</td>
+<td><a href="/products/r0637-mmei">MmeI</a></td>
+</tr>
+<tr>
+<td>CCTC(7/6)</td>
+<td><a href="/products/r0163-mnli">MnlI</a></td>
+</tr>
+<tr>
+<td>TGG/CCA</td>
+<td><a href="/products/r0534-msci">MscI</a></td>
+</tr>
+<tr>
+<td>T/TAA</td>
+<td><a href="/products/r0525-msei">MseI</a></td>
+</tr>
+<tr>
+<td>CAYNN/NNRTG</td>
+<td><a href="/products/r0571-msli">MslI</a></td>
+</tr>
+<tr>
+<td>CMG/CKG</td>
+<td><a href="/products/r0577-mspa1i">MspA1I</a></td>
+</tr>
+<tr>
+<td>C/CGG</td>
+<td><a href="/products/r0106-mspi">MspI</a> <a href="/products/r0171-hpaii">HpaII</a></td>
+</tr>
+<tr>
+<td>CNNR(9/13)</td>
+<td><a href="/products/r0661-mspji">MspJI</a></td>
+</tr>
+<tr>
+<td>GCNNNNN/NNGC</td>
+<td><a href="/products/r0573-mwoi">MwoI</a></td>
+</tr>
+<tr>
+<td>GCC/GGC</td>
+<td><a href="/products/r0190-naei">NaeI</a></td>
+</tr>
+<tr>
+<td>GG/CGCC</td>
+<td><a href="/products/r0191-narl">NarI</a></td>
+</tr>
+<tr>
+<td>CCTCAGC</td>
+<td><a href="/products/r0631-nbbbvci">Nb.BbvCI</a></td>
+</tr>
+<tr>
+<td>GAATGC</td>
+<td><a href="/products/r0706-nbbsmi">Nb.BsmI</a></td>
+</tr>
+<tr>
+<td>GCAATG</td>
+<td><a href="/products/r0648-nbbsrdi">Nb.BsrDI</a></td>
+</tr>
+<tr>
+<td>CACGAG</td>
+<td><a href="/products/r0681-nbbsssi">Nb.BssSI</a></td>
+</tr>
+<tr>
+<td>GCAGTG</td>
+<td><a href="/products/r0707-nbbtsi">Nb.BtsI</a></td>
+</tr>
+<tr>
+<td>CC/SGG</td>
+<td><a href="/products/r0196-ncii">NciI</a></td>
+</tr>
+<tr>
+<td>C/CATGG</td>
+<td><a href="/products/r0193-ncoi">NcoI</a> <a href="/products/r3193-ncoi-hf">NcoI-HF®</a></td>
+</tr>
+<tr>
+<td>CA/TATG</td>
+<td><a href="/products/r0111-ndei">NdeI</a></td>
+</tr>
+<tr>
+<td>G/CCGGC</td>
+<td><a href="/products/r0564-ngomiv">NgoMIV</a></td>
+</tr>
+<tr>
+<td>G/CTAGC</td>
+<td><a href="/products/r3131-nhei-hf">NheI-HF®</a></td>
+</tr>
+<tr>
+<td>CATG/</td>
+<td><a href="/products/r0125-nlaiii">NlaIII</a></td>
+</tr>
+<tr>
+<td>GGN/NCC</td>
+<td><a href="/products/r0126-nlaiv">NlaIV</a></td>
+</tr>
+<tr>
+<td>GCCGAG(21/19)</td>
+<td><a href="/products/r0711-nmeaiii">NmeAIII</a></td>
+</tr>
+<tr>
+<td>GC/GGCCGC</td>
+<td><a href="/products/r0189-noti">NotI</a> <a href="/products/r3189-noti-hf">NotI-HF®</a></td>
+</tr>
+<tr>
+<td>TCG/CGA</td>
+<td><a href="/products/r0192-nrui">NruI</a> <a href="/products/r3192-nrui-hf">NruI-HF®</a></td>
+</tr>
+<tr>
+<td>ATGCA/T</td>
+<td><a href="/products/r0127-nsii">NsiI</a> <a href="/products/r3127-nsii-hf">NsiI-HF®</a></td>
+</tr>
+<tr>
+<td>RCATG/Y</td>
+<td><a href="/products/r0602-nspi">NspI</a></td>
+</tr>
+<tr>
+<td>GGATC(4/-5)</td>
+<td><a href="/products/r0627-ntalwi">Nt.AlwI</a></td>
+</tr>
+<tr>
+<td>CCTCAGC(-5/-7)</td>
+<td><a href="/products/r0632-ntbbvci">Nt.BbvCI</a></td>
+</tr>
+<tr>
+<td>GTCTC(1/-5)</td>
+<td><a href="/products/r0121-ntbsmai">Nt.BsmAI</a></td>
+</tr>
+<tr>
+<td>GCTCTTC(1/-7)</td>
+<td><a href="/products/r0644-ntbspqi">Nt.BspQI</a></td>
+</tr>
+<tr>
+<td>GAGTC(4/-5)</td>
+<td><a href="/products/r0607-ntbstnbi">Nt.BstNBI</a></td>
+</tr>
+<tr>
+<td>(0/-1)CCD</td>
+<td><a href="/products/r0626-ntcvipii">Nt.CviPII</a></td>
+</tr>
+<tr>
+<td>TTAAT/TAA</td>
+<td><a href="/products/r0547-paci">PacI</a></td>
+</tr>
+<tr>
+<td>CACCTGC(4/8)</td>
+<td><a href="/products/r0745-paqci">PaqCI</a></td>
+</tr>
+<tr>
+<td>A/CATGT</td>
+<td><a href="/products/r0655-pcii">PciI</a></td>
+</tr>
+<tr>
+<td>CCANNNN/NTGG</td>
+<td><a href="/products/r0509-pflmi">PflMI</a></td>
+</tr>
+<tr>
+<td>TGGCAAACAGCTATTATGGGTATTATGGGT(-13/-17)</td>
+<td><a href="/products/r0695-pi-pspi">PI-PspI</a></td>
+</tr>
+<tr>
+<td>ATCTATGTCGGGTGCGGAGAAAGAGGTAAT(-15/-19)</td>
+<td><a href="/products/r0696-pi-scei">PI-SceI</a></td>
+</tr>
+<tr>
+<td>GAGTC(4/5)</td>
+<td><a href="/products/r0515-plei">PleI</a></td>
+</tr>
+<tr>
+<td>GGCGC/C</td>
+<td><a href="/products/r0713-pluti">PluTI</a></td>
+</tr>
+<tr>
+<td>GTTT/AAAC</td>
+<td><a href="/products/r0560-pmei">PmeI</a></td>
+</tr>
+<tr>
+<td>CAC/GTG</td>
+<td><a href="/products/r0532-pmli">PmlI</a></td>
+</tr>
+<tr>
+<td>RG/GWCCY</td>
+<td><a href="/products/r0506-ppumi">PpuMI</a></td>
+</tr>
+<tr>
+<td>GACNN/NNGTC</td>
+<td><a href="/products/r0593-pshai">PshAI</a></td>
+</tr>
+<tr>
+<td>TTA/TAA</td>
+<td><a href="/products/r0744-psii-v2">PsiI-v2</a></td>
+</tr>
+<tr>
+<td>/CCWGG</td>
+<td><a href="/products/r0611-pspgi">PspGI</a></td>
+</tr>
+<tr>
+<td>G/GGCCC</td>
+<td><a href="/products/r0653-pspomi">PspOMI</a></td>
+</tr>
+<tr>
+<td>VC/TCGAGB</td>
+<td><a href="/products/r0656-pspxi">PspXI</a></td>
+</tr>
+<tr>
+<td>CTGCA/G</td>
+<td><a href="/products/r0140-psti">PstI</a> <a href="/products/r3140-psti-hf">PstI-HF®</a></td>
+</tr>
+<tr>
+<td>CGAT/CG</td>
+<td><a href="/products/r0150-pvui">PvuI</a> <a href="/products/r3150-pvui-hf">PvuI-HF®</a></td>
+</tr>
+<tr>
+<td>CAG/CTG</td>
+<td><a href="/products/r0151-pvuii">PvuII</a> <a href="/products/r3151-pvuii-hf">PvuII-HF®</a></td>
+</tr>
+<tr>
+<td>GT/AC</td>
+<td><a href="/products/r0167-rsai">RsaI</a></td>
+</tr>
+<tr>
+<td>CG/GWCCG</td>
+<td><a href="/products/r0501-rsrii">RsrII</a></td>
+</tr>
+<tr>
+<td>GAGCT/C</td>
+<td><a href="/products/r0156-saci">SacI</a> <a href="/products/r3156-saci-hf">SacI-HF®</a></td>
+</tr>
+<tr>
+<td>CCGC/GG</td>
+<td><a href="/products/r0157-sacii">SacII</a></td>
+</tr>
+<tr>
+<td>G/TCGAC</td>
+<td><a href="/products/r0138-sali">SalI</a> <a href="/products/r3138-sali-hf">SalI-HF®</a></td>
+</tr>
+<tr>
+<td>GCTCTTC(1/4)</td>
+<td><a href="/products/r0569-sapi">SapI</a> <a href="/products/r0712-bspqi">BspQI</a></td>
+</tr>
+<tr>
+<td>G/GNCC</td>
+<td><a href="/products/r0165-sau96i">Sau96I</a></td>
+</tr>
+<tr>
+<td>CCTGCA/GG</td>
+<td><a href="/products/r0642-sbfi">SbfI</a> <a href="/products/r3642-sbfi-hf">SbfI-HF®</a></td>
+</tr>
+<tr>
+<td>AGT/ACT</td>
+<td><a href="/products/r3122-scai-hf">ScaI-HF®</a></td>
+</tr>
+<tr>
+<td>CC/NGG</td>
+<td><a href="/products/r0110-scrfi">ScrFI</a></td>
+</tr>
+<tr>
+<td>A/CCWGGT</td>
+<td><a href="/products/r0605-sexai">SexAI</a></td>
+</tr>
+<tr>
+<td>GCATC(5/9)</td>
+<td><a href="/products/r0172-sfani">SfaNI</a></td>
+</tr>
+<tr>
+<td>C/TRYAG</td>
+<td><a href="/products/r0561-sfci">SfcI</a></td>
+</tr>
+<tr>
+<td>GGCCNNNN/NGGCC</td>
+<td><a href="/products/r0123-sfii">SfiI</a></td>
+</tr>
+<tr>
+<td>GGC/GCC</td>
+<td><a href="/products/r0606-sfoi">SfoI</a></td>
+</tr>
+<tr>
+<td>CR/CCGGYG</td>
+<td><a href="/products/r0603-sgrai">SgrAI</a></td>
+</tr>
+<tr>
+<td>CCC/GGG</td>
+<td><a href="/products/r0141-smai">SmaI</a></td>
+</tr>
+<tr>
+<td>C/TYRAG</td>
+<td><a href="/products/r0597-smli">SmlI</a></td>
+</tr>
+<tr>
+<td>TAC/GTA</td>
+<td><a href="/products/r0130-snabi">SnaBI</a></td>
+</tr>
+<tr>
+<td>A/CTAGT</td>
+<td><a href="/products/r0133-spei">SpeI</a> <a href="/products/r3133-spei-hf">SpeI-HF®</a></td>
+</tr>
+<tr>
+<td>GCATG/C</td>
+<td><a href="/products/r0182-sphi">SphI</a> <a href="/products/r3182-sphi-hf">SphI-HF®</a></td>
+</tr>
+<tr>
+<td>GCCC/GGGC</td>
+<td><a href="/products/r0629-srfi">SrfI</a></td>
+</tr>
+<tr>
+<td>AAT/ATT</td>
+<td><a href="/products/r0132-sspi">SspI</a> <a href="/products/r3132-sspi-hf">SspI-HF®</a></td>
+</tr>
+<tr>
+<td>AGG/CCT</td>
+<td><a href="/products/r0187-stui">StuI</a></td>
+</tr>
+<tr>
+<td>/CCNGG</td>
+<td><a href="/products/r0638-styd4i">StyD4I</a></td>
+</tr>
+<tr>
+<td>C/CWWGG</td>
+<td><a href="/products/r3500-styi-hf">StyI-HF®</a></td>
+</tr>
+<tr>
+<td>ATTT/AAAT</td>
+<td><a href="/products/r0604-swai">SwaI</a></td>
+</tr>
+<tr>
+<td>T/CGA</td>
+<td><a href="/products/r0149-taqi-v2">TaqI-v2</a></td>
+</tr>
+<tr>
+<td>G/AWTC</td>
+<td><a href="/products/r0546-tfii">TfiI</a></td>
+</tr>
+<tr>
+<td>G/CWGC</td>
+<td><a href="/products/r0591-tsei">TseI</a> <a href="/products/r0643-apeki">ApeKI</a></td>
+</tr>
+<tr>
+<td>/GTSAC</td>
+<td><a href="/products/r0583-tsp45i">Tsp45I</a></td>
+</tr>
+<tr>
+<td>NNCASTGNN/</td>
+<td><a href="/products/r0582-tspri">TspRI</a></td>
+</tr>
+<tr>
+<td>GACN/NNGTC</td>
+<td><a href="/products/r0185-tth111i">Tth111I</a> <a href="/products/r0595-pflfi">PflFI</a></td>
+</tr>
+<tr>
+<td>T/CTAGA</td>
+<td><a href="/products/r0145-xbai">XbaI</a></td>
+</tr>
+<tr>
+<td>CCANNNNN/NNNNTGG</td>
+<td><a href="/products/r0533-xcmi">XcmI</a></td>
+</tr>
+<tr>
+<td>C/TCGAG</td>
+<td><a href="/products/r0146-xhoi">XhoI</a> <a href="/products/r0177-paer7i">PaeR7I</a></td>
+</tr>
+<tr>
+<td>C/CCGGG</td>
+<td><a href="/products/r0180-xmai">XmaI</a> <a href="/products/r0709-tspmi">TspMI</a></td>
+</tr>
+<tr>
+<td>GAANN/NNTTC</td>
+<td><a href="/products/r0194-xmni">XmnI</a></td>
+</tr>
+<tr>
+<td>GAC/GTC</td>
+<td><a href="/products/r0659-zrai">ZraI</a></td>
+</tr>
+</tbody>
